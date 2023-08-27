@@ -1,0 +1,679 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.4
+# Built for x86_64-pc-msys
+# Copyright (C) 1988-2022 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sat Aug 26 14:40:52 2023
+
+# Variables
+
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+SYSTEMDRIVE = C:
+# environment
+JAVA_HOME = C:\Program Files\Eclipse Adoptium\jdk-17.0.7.7-hotspot\
+# makefile (from '/opt/devkitpro/devkitARM/base_rules', line 6)
+PORTLIBS_PATH := /opt/devkitpro/portlibs
+# makefile (from 'Makefile', line 38)
+ROMTITLE := ROM TITLE
+# makefile (from 'Makefile', line 42)
+USERLDFLAGS := 
+# makefile (from '/opt/devkitpro/devkitARM/base_tools', line 19)
+AS := arm-none-eabi-as
+# makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 105)
+OUTPUT := /home/jeffr/Documents/butano/gba/gba
+# environment
+LC_ALL = C
+# makefile (from '/opt/devkitpro/devkitARM/base_tools', line 20)
+AR := arm-none-eabi-gcc-ar
+# environment
+USERPROFILE = C:\Users\jeffr
+# makefile (from 'Makefile', line 30)
+LIBBUTANO := ../butano
+# makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 157)
+OFILES := _bn_audio_soundbank.bin.o   cursor_bn_gfx.o entity_bn_gfx.o overworld_bn_gfx.o selected_bn_gfx.o world_bn_gfx.o common_fixed_8x16_font_bn_gfx.o common_fixed_8x8_font_bn_gfx.o common_variable_16x16_font_bn_gfx.o common_variable_8x16_font_bn_gfx.o common_variable_8x8_font_bn_gfx.o entity.o main.o math.o tile.o world.o bn_audio_manager.o bn_best_fit_allocator.o bn_bg_blocks_manager.o bn_bgs_manager.o bn_cameras_manager.o bn_color_effect.o bn_core.o bn_display_manager.o bn_format.o bn_generic_pool.o bn_gpio_manager.o bn_hblank_effects_manager.o bn_hdma_manager.o bn_keypad_manager.o bn_link_manager.o bn_log.o bn_math.o bn_memory_manager.o bn_palettes_manager.o bn_profiler.o bn_reciprocal_lut.o bn_sin_lut.o bn_sprite_affine_mats_manager.o bn_sprite_animate_actions.o bn_sprite_text_generator.o bn_sprite_tiles_manager.o bn_sprites_manager.bn_iwram.o bn_sprites_manager.o bn_sram.o bn_sstream.o bn_timer.o bn_hw_audio.bn_noflto.o bn_hw_bg_blocks.bn_iwram.o bn_hw_common.bn_noflto.o bn_hw_cstdlib.o bn_hw_game_pak.bn_ewram.o bn_hw_game_pak.o bn_hw_irq.o bn_hw_link.o bn_hw_log.o bn_hw_memory.bn_iwram.o bn_hw_memory.o bn_hw_palettes.o bn_hw_show.o bn_hw_sprite_tiles.bn_iwram.o bn_hw_sprite_tiles.o bn_hw_sram.bn_ewram.o bn_hw_sram.o bn_hw_system_font.o bn_hw_text.o tonc_color.o tonc_sbmp16.o bmp16_drawg_b1cs.o tte_init_bmp.o tte_main.o interrupts_gba.o gbt_player.o bn_hw_core.o bn_hw_hblank_effects.o clr_blend_fast.o clr_fade_fast.o tonc_bios.o tonc_memset.o tonc_nocash.o verdana9.o irq_handler.o posprintf.o atan2.o lmul.o memcpy.o memmove.o memset.o rmemcpy.o clz.o sdiv32.o sqrt32.o udiv32.o huffman.o lz77.o running_length.o
+# environment
+LOCALAPPDATA = C:\Users\jeffr\AppData\Local
+# makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 115)
+CFILES := 	 	 	 	 	tonc_color.c tonc_sbmp16.c 	 	bmp16_drawg_b1cs.c tte_init_bmp.c tte_main.c 	interrupts_gba.c 	 	 	 	 	gbt_player.c
+# makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 107)
+VPATH := 	/home/jeffr/Documents/butano/gba/src 	/home/jeffr/Documents/butano/butano/src 	/home/jeffr/Documents/butano/butano/hw/src 	/home/jeffr/Documents/butano/butano/hw/3rd_party/libtonc/asm 	/home/jeffr/Documents/butano/butano/hw/3rd_party/libtonc/src 	/home/jeffr/Documents/butano/butano/hw/3rd_party/libtonc/src/font 	/home/jeffr/Documents/butano/butano/hw/3rd_party/libtonc/src/tte 	/home/jeffr/Documents/butano/butano/hw/3rd_party/libugba/src 	/home/jeffr/Documents/butano/butano/hw/3rd_party/posprintf/src 	/home/jeffr/Documents/butano/butano/hw/3rd_party/agbabi/src 	/home/jeffr/Documents/butano/butano/hw/3rd_party/gba-modern/src 	/home/jeffr/Documents/butano/butano/hw/3rd_party/cult-of-gba-bios/src 	/home/jeffr/Documents/butano/butano/hw/3rd_party/gbt-player/src  	/home/jeffr/Documents/butano/gba/dmg_audio 	/home/jeffr/Documents/butano/gba/graphics 	/home/jeffr/Documents/butano/gba/../../butano/common/graphics
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# environment
+VSCODE_CWD = C:\Users\jeffr\AppData\Local\Programs\Microsoft VS Code Insiders
+# makefile (from 'Makefile', line 31)
+PYTHON := python
+# makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 131)
+GRAPHICSFILES := 	cursor.bmp entity.bmp overworld.bmp selected.bmp world.bmp 	common_fixed_8x16_font.bmp common_fixed_8x8_font.bmp common_variable_16x16_font.bmp common_variable_8x16_font.bmp common_variable_8x8_font.bmp
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\WINDOWS
+# makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 74)
+LIBS := -lmm 
+# makefile (from '/opt/devkitpro/devkitARM/base_tools', line 39)
+SILENTMSG := @echo
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make
+# makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 147)
+OFILES_BIN := _bn_audio_soundbank.bin.o
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9804_ZUOYZKKCRCHIKAYI
+# makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 118)
+CPPFILES := 	entity.cpp main.cpp math.cpp tile.cpp world.cpp 	bn_audio_manager.cpp bn_best_fit_allocator.cpp bn_bg_blocks_manager.cpp bn_bgs_manager.cpp bn_cameras_manager.cpp bn_color_effect.cpp bn_core.cpp bn_display_manager.cpp bn_format.cpp bn_generic_pool.cpp bn_gpio_manager.cpp bn_hblank_effects_manager.cpp bn_hdma_manager.cpp bn_keypad_manager.cpp bn_link_manager.cpp bn_log.cpp bn_math.cpp bn_memory_manager.cpp bn_palettes_manager.cpp bn_profiler.cpp bn_reciprocal_lut.cpp bn_sin_lut.cpp bn_sprite_affine_mats_manager.cpp bn_sprite_animate_actions.cpp bn_sprite_text_generator.cpp bn_sprite_tiles_manager.cpp bn_sprites_manager.bn_iwram.cpp bn_sprites_manager.cpp bn_sram.cpp bn_sstream.cpp bn_timer.cpp 	bn_hw_audio.bn_noflto.cpp bn_hw_bg_blocks.bn_iwram.cpp bn_hw_common.bn_noflto.cpp bn_hw_cstdlib.cpp bn_hw_game_pak.bn_ewram.cpp bn_hw_game_pak.cpp bn_hw_irq.cpp bn_hw_link.cpp bn_hw_log.cpp bn_hw_memory.bn_iwram.cpp bn_hw_memory.cpp bn_hw_palettes.cpp bn_hw_show.cpp bn_hw_sprite_tiles.bn_iwram.cpp bn_hw_sprite_tiles.cpp bn_hw_sram.bn_ewram.cpp bn_hw_sram.cpp bn_hw_system_font.cpp bn_hw_text.cpp 	 	 	 	 	 	 	 	 	 	
+# environment
+CLOUDSDK_METRICS_ENVIRONMENT_VERSION = 1.22.1
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# makefile (from 'Makefile', line 43)
+USERLIBDIRS := 
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\jeffr\AppData\Roaming\Code - Insiders\CachedData\083fca132543aa91a7e1de2dc23857d70ea56dd3
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = /home/jeffr/AppData/Local/Temp
+# default
+.INCLUDE_DIRS := /usr/include
+# makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 151)
+OFILES_DMGS3M := 
+# makefile (from 'Makefile', line 37)
+DMGAUDIO := dmg_audio
+# makefile
+MAKEFLAGS = pqrR
+# makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 121)
+SFILES := 	 	 	bn_hw_core.s bn_hw_hblank_effects.s 	clr_blend_fast.s clr_fade_fast.s tonc_bios.s tonc_memset.s tonc_nocash.s 	 	verdana9.s 	 	irq_handler.s 	posprintf.s 	atan2.s lmul.s memcpy.s memmove.s memset.s rmemcpy.s 	clz.s sdiv32.s sqrt32.s udiv32.s 	huffman.s lz77.s running_length.s 	
+# environment
+ONEDRIVE = C:\Users\jeffr\OneDrive
+# environment
+DEVKITARM = /opt/devkitpro/devkitARM
+# makefile
+CURDIR := /home/jeffr/Documents/butano/gba
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 113)
+DEPSDIR := /home/jeffr/Documents/butano/gba/build
+# environment
+PROGRAMFILES = C:\Program Files
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+!C: = c:\Users\jeffr\Documents\butano\gba
+# makefile (from 'Makefile', line 52)
+LIBBUTANOABS := /home/jeffr/Documents/butano/butano
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from '/opt/devkitpro/devkitARM/base_tools', line 1)
+MAKEFILE_LIST := Makefile /home/jeffr/Documents/butano/butano/butano.mak /opt/devkitpro/devkitARM/gba_rules /opt/devkitpro/devkitARM/base_rules /opt/devkitpro/devkitARM/base_tools
+# makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 68)
+ASFLAGS := -gdwarf-4 -mthumb -mthumb-interwork 
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 9804
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from '/opt/devkitpro/devkitARM/base_tools', line 24)
+RANLIB := arm-none-eabi-gcc-ranlib
+# environment
+DEVKITPPC = /opt/devkitpro/devkitPPC
+# makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 162)
+HFILES := 
+# makefile (from 'Makefile', line 33)
+INCLUDES := include ../../butano/common/include
+# automatic
+*F = $(notdir $*)
+# makefile (from 'Makefile', line 46)
+EXTTOOL := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","osLocale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 164)
+INCLUDE := -iquote /home/jeffr/Documents/butano/gba/include -iquote /home/jeffr/Documents/butano/gba/../../butano/common/include -I/home/jeffr/Documents/butano/butano/include -I/home/jeffr/Documents/butano/butano/hw/3rd_party/libtonc/include -I/home/jeffr/Documents/butano/butano/hw/3rd_party/libugba/include -I/opt/devkitpro/libgba/include -I/home/jeffr/Documents/butano/gba/build
+# environment
+ONEDRIVECONSUMER = C:\Users\jeffr\OneDrive
+# default
+MAKE_HOST := x86_64-pc-msys
+# environment
+PROGRAMDATA = C:\ProgramData
+# makefile (from '/opt/devkitpro/devkitARM/base_tools', line 4)
+SHELL := /usr/bin/env bash
+# environment
+HOMEPATH = \Users\jeffr
+# default
+MAKECMDGOALS := all
+# makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 153)
+OFILES_GRAPHICS := cursor_bn_gfx.o entity_bn_gfx.o overworld_bn_gfx.o selected_bn_gfx.o world_bn_gfx.o common_fixed_8x16_font_bn_gfx.o common_fixed_8x8_font_bn_gfx.o common_variable_16x16_font_bn_gfx.o common_variable_8x16_font_bn_gfx.o common_variable_8x8_font_bn_gfx.o
+# makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 155)
+OFILES_SOURCES := entity.o main.o math.o tile.o world.o bn_audio_manager.o bn_best_fit_allocator.o bn_bg_blocks_manager.o bn_bgs_manager.o bn_cameras_manager.o bn_color_effect.o bn_core.o bn_display_manager.o bn_format.o bn_generic_pool.o bn_gpio_manager.o bn_hblank_effects_manager.o bn_hdma_manager.o bn_keypad_manager.o bn_link_manager.o bn_log.o bn_math.o bn_memory_manager.o bn_palettes_manager.o bn_profiler.o bn_reciprocal_lut.o bn_sin_lut.o bn_sprite_affine_mats_manager.o bn_sprite_animate_actions.o bn_sprite_text_generator.o bn_sprite_tiles_manager.o bn_sprites_manager.bn_iwram.o bn_sprites_manager.o bn_sram.o bn_sstream.o bn_timer.o bn_hw_audio.bn_noflto.o bn_hw_bg_blocks.bn_iwram.o bn_hw_common.bn_noflto.o bn_hw_cstdlib.o bn_hw_game_pak.bn_ewram.o bn_hw_game_pak.o bn_hw_irq.o bn_hw_link.o bn_hw_log.o bn_hw_memory.bn_iwram.o bn_hw_memory.o bn_hw_palettes.o bn_hw_show.o bn_hw_sprite_tiles.bn_iwram.o bn_hw_sprite_tiles.o bn_hw_sram.bn_ewram.o bn_hw_sram.o bn_hw_system_font.o bn_hw_text.o tonc_color.o tonc_sbmp16.o bmp16_drawg_b1cs.o tte_init_bmp.o tte_main.o interrupts_gba.o gbt_player.o bn_hw_core.o bn_hw_hblank_effects.o clr_blend_fast.o clr_fade_fast.o tonc_bios.o tonc_memset.o tonc_nocash.o verdana9.o irq_handler.o posprintf.o atan2.o lmul.o memcpy.o memmove.o memset.o rmemcpy.o clz.o sdiv32.o sqrt32.o udiv32.o huffman.o lz77.o running_length.o
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 124)
+BINFILES :=  _bn_audio_soundbank.bin
+# environment
+MAKELEVEL := 0
+# makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 168)
+LIBPATHS := -L/home/jeffr/Documents/butano/butano/lib -L/home/jeffr/Documents/butano/butano/hw/3rd_party/libtonc/lib -L/home/jeffr/Documents/butano/butano/hw/3rd_party/libugba/lib -L/opt/devkitpro/libgba/lib
+# default
+MAKE = $(MAKE_COMMAND)
+# makefile (from '/opt/devkitpro/devkitARM/gba_rules', line 8)
+PATH := /opt/devkitpro/portlibs/gba/bin:/opt/devkitpro/portlibs/armv4t/bin:/opt/devkitpro/tools/bin:/opt/devkitpro/devkitARM/bin:/home/jeffr/AppData/Local/cloud-code/installer/google-cloud-sdk/bin:/c/Python311/Scripts:/c/Python311:/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/c/Program Files/Eclipse Adoptium/jdk-17.0.7.7-hotspot/bin:/opt/devkitpro/msys2/usr/bin:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0:/c/Windows/System32/OpenSSH:/c/Program Files/dotnet:/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/c/Program Files (x86)/GnuWin32/bin:/c/src/flutter/bin:/home/jeffr/.cache/firebase/tools/bin/firebase:/c/Program Files/Microsoft SQL Server/150/Tools/Binn:/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/c/Program Files/Docker/Docker/resources/bin:/c/Program Files/nodejs:/c/ProgramData/chocolatey/bin:/c/Program Files/Git/cmd:/home/jeffr/AppData/Local/Pub/Cache/bin:/home/jeffr/Downloads/platform-tools_r34.0.4-windows/platform-tools:/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/home/jeffr/AppData/Local/Microsoft/WindowsApps:/home/jeffr/AppData/Local/Programs/Microsoft VS Code/bin:/home/jeffr/AppData/Local/GitHubDesktop/bin:/home/jeffr/AppData/Local/Programs/Microsoft VS Code Insiders/bin:/c/src/flutter/bin:/home/jeffr/.dotnet/tools:/home/jeffr/AppData/Roaming/npm:/home/jeffr/AppData/Local/Pub/Cache/bin:/home/jeffr/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin:/c/Program Files (x86)/Google/Cloud SDK/google-cloud-sdk/bin:/c/Program Files/Google/Cloud SDK/google-cloud-sdk/bin
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+EFC_14228 = 1
+# environment
+COMPUTERNAME = DESKTOP-JFQT5NP
+# default
+MAKEFILES := 
+# makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 65)
+CPPWARNINGS := -Wuseless-cast -Wnon-virtual-dtor -Woverloaded-virtual
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# makefile (from '/opt/devkitpro/devkitARM/gba_rules', line 20)
+MAKER_CODE := 00
+# environment
+CHOCOLATEYLASTPATHUPDATE = 133302746498631278
+# makefile (from 'Makefile', line 41)
+USERASFLAGS := 
+# makefile (from '/opt/devkitpro/devkitARM/base_tools', line 15)
+PREFIX := arm-none-eabi-
+# makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 79)
+LIBDIRS := /home/jeffr/Documents/butano/butano /home/jeffr/Documents/butano/butano/hw/3rd_party/libtonc /home/jeffr/Documents/butano/butano/hw/3rd_party/libugba /opt/devkitpro/libgba 
+# environment
+LOGONSERVER = \\DESKTOP-JFQT5NP
+# environment
+USERNAME = jeffr
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# automatic
+?F = $(notdir $?)
+# makefile (from '/opt/devkitpro/devkitARM/base_tools', line 46)
+define bin2o
+    $(SILENTCMD)mkdir -p $(dir $@)
+    $(SILENTCMD)bin2s -a 4 -H $(dir $@)`(echo $(<F) | tr . _)`.h $< > $(@D)/$(<F).s
+	$(SILENTCMD)$(CC) -x assembler-with-cpp $(CPPFLAGS) $(ASFLAGS) -c $(@D)/$(<F).s -o $(@D)/$(<F).o
+endef
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+DEVKITPRO = /opt/devkitpro
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = DESKTOP-JFQT5NP
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile (from '/opt/devkitpro/devkitARM/gba_rules', line 12)
+GAME_TITLE := 
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 55)
+ARCH := -mthumb -mthumb-interwork
+# default
+MAKE_VERSION := 4.4
+# 'override' directive
+.SHELLSTATUS := 0
+# makefile (from '/opt/devkitpro/devkitARM/base_tools', line 40)
+SILENTCMD := @
+# makefile (from '/opt/devkitpro/devkitARM/gba_rules', line 16)
+GAME_CODE := 0000
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# makefile (from 'Makefile', line 29)
+BUILD := build
+# makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 69)
+LDFLAGS = -gdwarf-4 $(ARCH) -Wl,-Map,$(notdir $*.map) $(USERLDFLAGS)
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-JFQT5NP
+# environment
+NUMBER_OF_PROCESSORS = 16
+# makefile (from '/opt/devkitpro/devkitARM/base_tools', line 26)
+ISVC = $(or $(VCBUILDHELPER_COMMAND),$(MSBUILDEXTENSIONSPATH32),$(MSBUILDEXTENSIONSPATH))
+# environment
+PUBLIC = C:\Users\Public
+# makefile (from 'Makefile', line 40)
+USERFLAGS := 
+# makefile (from '/opt/devkitpro/devkitARM/gba_rules', line 9)
+LIBGBA := /opt/devkitpro/libgba
+# environment
+APPDATA = C:\Users\jeffr\AppData\Roaming
+# makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 60)
+CFLAGS := -Wall -Wextra -Wpedantic -Wshadow -Wundef -Wunused-parameter -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wnull-dereference -Wswitch-default -Wstack-usage=16384 -gdwarf-4 -O2 -mcpu=arm7tdmi -mtune=arm7tdmi -ffast-math -ffunction-sections -fdata-sections -mthumb -mthumb-interwork
+# environment
+HOMEDRIVE = C:
+# makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 85)
+BNSOURCES := /home/jeffr/Documents/butano/butano/src /home/jeffr/Documents/butano/butano/hw/src /home/jeffr/Documents/butano/butano/hw/3rd_party/libtonc/asm /home/jeffr/Documents/butano/butano/hw/3rd_party/libtonc/src /home/jeffr/Documents/butano/butano/hw/3rd_party/libtonc/src/font /home/jeffr/Documents/butano/butano/hw/3rd_party/libtonc/src/tte /home/jeffr/Documents/butano/butano/hw/3rd_party/libugba/src /home/jeffr/Documents/butano/butano/hw/3rd_party/posprintf/src /home/jeffr/Documents/butano/butano/hw/3rd_party/agbabi/src /home/jeffr/Documents/butano/butano/hw/3rd_party/gba-modern/src /home/jeffr/Documents/butano/butano/hw/3rd_party/cult-of-gba-bios/src /home/jeffr/Documents/butano/butano/hw/3rd_party/gbt-player/src
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 56)
+CWARNINGS := -Wall -Wextra -Wpedantic -Wshadow -Wundef -Wunused-parameter -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wnull-dereference -Wswitch-default -Wstack-usage=16384
+# makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 129)
+DMGS3MFILES := $(subst ,,	)
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# makefile (from 'Makefile', line 39)
+ROMCODE := SBTP
+# environment
+HOME = /home/jeffr
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# makefile (from '/opt/devkitpro/devkitARM/base_tools', line 8)
+DEVKITPATH = $(shell echo "$(DEVKITPRO)" | sed -e 's/^\([a-zA-Z]\):/\/\1/')
+# makefile (from '/opt/devkitpro/devkitARM/gba_rules', line 7)
+PORTLIBS := /opt/devkitpro/portlibs/gba /opt/devkitpro/portlibs/armv4t
+# makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 127)
+DMGMODFILES := $(subst ,,	)
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = /home/jeffr/AppData/Local/Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\1308fdd92e410de1ddfa1144d6134083-1.82.0-insider-main-sock
+# environment
+TERM = xterm-256color
+# makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 149)
+OFILES_DMGMOD := 
+# makefile (from '/opt/devkitpro/devkitARM/base_tools', line 23)
+NM := arm-none-eabi-gcc-nm
+# makefile (from 'Makefile', line 44)
+USERLIBS := 
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# makefile (from 'Makefile', line 28)
+TARGET := gba
+# makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 142)
+LD := arm-none-eabi-g++
+# environment
+SESSIONNAME = Console
+# makefile (from 'Makefile', line 45)
+USERBUILD := 
+# environment
+CLOUDSDK_METRICS_ENVIRONMENT = cloudcode.vscode
+# makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 66)
+CXXFLAGS := -Wall -Wextra -Wpedantic -Wshadow -Wundef -Wunused-parameter -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wnull-dereference -Wswitch-default -Wstack-usage=16384 -gdwarf-4 -O2 -mcpu=arm7tdmi -mtune=arm7tdmi -ffast-math -ffunction-sections -fdata-sections -mthumb -mthumb-interwork -Wuseless-cast -Wnon-virtual-dtor -Woverloaded-virtual -std=c++20 -fno-rtti -fno-exceptions
+# makefile (from '/opt/devkitpro/devkitARM/base_tools', line 22)
+STRIP := arm-none-eabi-strip
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs notintermediate shell-export archives jobserver jobserver-fifo output-sync check-symlink load
+# environment
+PROCESSOR_REVISION = a502
+# makefile (from '/opt/devkitpro/devkitARM/base_tools', line 18)
+CXX := arm-none-eabi-g++
+# makefile (from '/opt/devkitpro/devkitARM/base_tools', line 17)
+CC := arm-none-eabi-gcc
+# makefile (from '/opt/devkitpro/devkitARM/base_tools', line 21)
+OBJCOPY := arm-none-eabi-objcopy
+# makefile (from 'Makefile', line 36)
+AUDIO := audio ../../butano/common/audio
+# makefile (from 'Makefile', line 32)
+SOURCES := src
+# makefile (from 'Makefile', line 34)
+DATA := 
+# makefile (from 'Makefile', line 35)
+GRAPHICS := graphics ../../butano/common/graphics
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
+# variable set hash-table stats:
+# Load=175/1024=17%, Rehash=0, Collisions=30/345=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# graphics (device 3089750953, inode 281474977783341): 13 files, no impossibilities.
+# ../../butano/common/graphics (device 3089750953, inode 281474977779824): 12 files, no impossibilities.
+# /home/jeffr/Documents/butano/gba/../../butano/common/graphics (device 3089750953, inode 281474977779824): 12 files, no impossibilities.
+# /home/jeffr/Documents/butano/butano/hw/3rd_party/libtonc/src/font (device 3089750953, inode 281474977779144): 4 files, no impossibilities.
+# /home/jeffr/Documents/butano/butano/hw/3rd_party/agbabi/src (device 3089750953, inode 281474977779023): 9 files, no impossibilities.
+# src (device 3089750953, inode 281474977783345): 7 files, no impossibilities.
+# /home/jeffr/Documents/butano/butano/hw/3rd_party/libugba/src (device 3089750953, inode 281474977779183): 4 files, no impossibilities.
+# /home/jeffr/Documents/butano/gba/graphics (device 3089750953, inode 281474977783341): 13 files, no impossibilities.
+# /home/jeffr/Documents/butano/butano/src (device 3089750953, inode 281474977779589): 176 files, no impossibilities.
+# /home/jeffr/Documents/butano/gba/dmg_audio (device 3089750953, inode 281474977783338): 3 files, no impossibilities.
+# /home/jeffr/Documents/butano/butano/hw/3rd_party/gbt-player/src (device 3089750953, inode 281474977779071): 4 files, no impossibilities.
+# /home/jeffr/Documents/butano/gba/src (device 3089750953, inode 281474977783345): 7 files, no impossibilities.
+# . (device 3089750953, inode 281474977783331): 13 files, no impossibilities.
+# /home/jeffr/Documents/butano/butano/hw/3rd_party/libtonc/asm (device 3089750953, inode 281474977779082): 7 files, no impossibilities.
+# /home/jeffr/Documents/butano/butano/hw/3rd_party/posprintf/src (device 3089750953, inode 281474977779190): 3 files, no impossibilities.
+# /home/jeffr/Documents/butano/butano/hw/3rd_party/cult-of-gba-bios/src (device 3089750953, inode 281474977779039): 5 files, no impossibilities.
+# /home/jeffr/Documents/butano/butano/hw/src (device 3089750953, inode 281474977779234): 23 files, no impossibilities.
+# /home/jeffr/Documents/butano/butano/hw/3rd_party/gba-modern/src (device 3089750953, inode 281474977779055): 6 files, no impossibilities.
+# /home/jeffr/Documents/butano/butano/hw/3rd_party/libtonc/src (device 3089750953, inode 281474977779140): 6 files, no impossibilities.
+# dmg_audio (device 3089750953, inode 281474977783338): 3 files, no impossibilities.
+# /home/jeffr/Documents/butano/butano/hw/3rd_party/libtonc/src/tte (device 3089750953, inode 281474977779147): 5 files, no impossibilities.
+
+# 335 files, no impossibilities in 21 directories.
+
+# Implicit Rules
+
+%.a:
+#  recipe to execute (from '/opt/devkitpro/devkitARM/base_rules', line 12):
+	$(SILENTMSG) $(notdir $@)
+	@rm -f $@
+	$(SILENTCMD)$(AR) -rc $@ $^
+
+%.arm.o: %.arm.cpp
+#  recipe to execute (from '/opt/devkitpro/devkitARM/base_rules', line 18):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CXX) -MMD -MP -MF $(DEPSDIR)/$*.arm.d $(CPPFLAGS) $(CXXFLAGS) -marm -c $< -o $@ $(ERROR_FILTER)
+
+%.arm.o: %.arm.c
+#  recipe to execute (from '/opt/devkitpro/devkitARM/base_rules', line 23):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CC) -MMD -MP -MF $(DEPSDIR)/$*.arm.d $(CPPFLAGS) $(CFLAGS) -marm -c $< -o $@ $(ERROR_FILTER)
+
+%.arm.o: %.arm.m
+#  recipe to execute (from '/opt/devkitpro/devkitARM/base_rules', line 28):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CC) -MMD -MP -MF $(DEPSDIR)/$*.arm.d $(CPPFLAGS) $(OBJCFLAGS) -marm -c $< -o $@ $(ERROR_FILTER)
+
+%.thumb.o: %.thumb.cpp
+#  recipe to execute (from '/opt/devkitpro/devkitARM/base_rules', line 33):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CXX) -MMD -MP -MF $(DEPSDIR)/$*.thumb.d $(CPPFLAGS) $(CXXFLAGS) -mthumb -c $< -o $@ $(ERROR_FILTER)
+
+%.thumb.o: %.thumb.c
+#  recipe to execute (from '/opt/devkitpro/devkitARM/base_rules', line 38):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CC) -MMD -MP -MF $(DEPSDIR)/$*.thumb.d $(CPPFLAGS) $(CFLAGS) -mthumb -c $< -o $@ $(ERROR_FILTER)
+
+%.thumb.o: %.thumb.m
+#  recipe to execute (from '/opt/devkitpro/devkitARM/base_rules', line 43):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CC) -MMD -MP -MF $(DEPSDIR)/$*.thumb.d $(CPPFLAGS) $(OBJCFLAGS) -mthumb -c $< -o $@ $(ERROR_FILTER)
+
+%.iwram.o: %.iwram.cpp
+#  recipe to execute (from '/opt/devkitpro/devkitARM/base_rules', line 48):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CXX) -MMD -MP -MF $(DEPSDIR)/$*.iwram.d $(CPPFLAGS) $(CXXFLAGS) -marm -mlong-calls -c $< -o $@ $(ERROR_FILTER)
+
+%.iwram.o: %.iwram.c
+#  recipe to execute (from '/opt/devkitpro/devkitARM/base_rules', line 53):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CC) -MMD -MP -MF $(DEPSDIR)/$*.iwram.d $(CPPFLAGS) $(CFLAGS) -marm -mlong-calls -c $< -o $@ $(ERROR_FILTER)
+
+%.iwram.o: %.iwram.m
+#  recipe to execute (from '/opt/devkitpro/devkitARM/base_rules', line 58):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CC) -MMD -MP -MF $(DEPSDIR)/$*.iwram.d $(CPPFLAGS) $(OBJCFLAGS) -marm -mlong-calls -c $< -o $@ $(ERROR_FILTER)
+
+%.itcm.o: %.itcm.cpp
+#  recipe to execute (from '/opt/devkitpro/devkitARM/base_rules', line 63):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CXX) -MMD -MP -MF $(DEPSDIR)/$*.itcm.d $(CPPFLAGS) $(CXXFLAGS) -marm -mlong-calls -c $< -o $@ $(ERROR_FILTER)
+
+%.itcm.o: %.itcm.c
+#  recipe to execute (from '/opt/devkitpro/devkitARM/base_rules', line 68):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CC) -MMD -MP -MF $(DEPSDIR)/$*.itcm.d $(CPPFLAGS) $(CFLAGS) -marm -mlong-calls -c $< -o $@ $(ERROR_FILTER)
+
+%.itcm.o: %.itcm.m
+#  recipe to execute (from '/opt/devkitpro/devkitARM/base_rules', line 73):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CC) -MMD -MP -MF $(DEPSDIR)/$*.itcm.d $(CPPFLAGS) $(OBJCFLAGS) -marm -mlong-calls -c $< -o $@ $(ERROR_FILTER)
+
+%.o: %.cpp
+#  recipe to execute (from '/opt/devkitpro/devkitARM/base_rules', line 79):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CXX) -MMD -MP -MF $(DEPSDIR)/$*.d $(CPPFLAGS) $(CXXFLAGS) -c $< -o $@ $(ERROR_FILTER)
+
+%.o: %.c
+#  recipe to execute (from '/opt/devkitpro/devkitARM/base_rules', line 84):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CC) -MMD -MP -MF $(DEPSDIR)/$*.d $(CPPFLAGS) $(CFLAGS) -c $< -o $@ $(ERROR_FILTER)
+
+%.o: %.m
+#  recipe to execute (from '/opt/devkitpro/devkitARM/base_rules', line 89):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CC) -MMD -MP -MF $(DEPSDIR)/$*.d $(CPPFLAGS) $(OBJCFLAGS) -c $< -o $@ $(ERROR_FILTER)
+
+%.o: %.s
+#  recipe to execute (from '/opt/devkitpro/devkitARM/base_rules', line 94):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CC) -MMD -MP -MF $(DEPSDIR)/$*.d -x assembler-with-cpp $(CPPFLAGS) $(ASFLAGS) -c $< -o $@ $(ERROR_FILTER)
+
+%.o: %.S
+#  recipe to execute (from '/opt/devkitpro/devkitARM/base_rules', line 99):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CC) -MMD -MP -MF $(DEPSDIR)/$*.d -x assembler-with-cpp $(CPPFLAGS) $(ASFLAGS) -c $< -o $@ $(ERROR_FILTER)
+
+%.gba: %.elf
+#  recipe to execute (from '/opt/devkitpro/devkitARM/gba_rules', line 25):
+	$(SILENTCMD)$(OBJCOPY) -O binary $< $@
+	@echo built ... $(notdir $@)
+	$(SILENTCMD)gbafix $@ -t$(GAME_TITLE) -c$(GAME_CODE) -m$(MAKER_CODE)
+
+%_mb.elf:
+#  recipe to execute (from '/opt/devkitpro/devkitARM/gba_rules', line 31):
+	$(SILENTMSG) linking multiboot
+	$(SILENTCMD)$(LD) -specs=gba_mb.specs $(LDFLAGS) $(OFILES) $(LIBPATHS) $(LIBS) -o $@
+
+%.bn_iwram.o: %.bn_iwram.cpp
+#  recipe to execute (from '/home/jeffr/Documents/butano/butano/butano.mak', line 15):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CXX) -MMD -MP -MF $(DEPSDIR)/$*.bn_iwram.d $(CXXFLAGS) -fno-lto -marm -c $< -o $@ $(ERROR_FILTER)
+
+%.bn_iwram.o: %.bn_iwram.c
+#  recipe to execute (from '/home/jeffr/Documents/butano/butano/butano.mak', line 19):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CC) -MMD -MP -MF $(DEPSDIR)/$*.bn_iwram.d $(CFLAGS) -fno-lto -marm -c $< -o $@ $(ERROR_FILTER)
+	
+
+%.bn_ewram.o: %.bn_ewram.cpp
+#  recipe to execute (from '/home/jeffr/Documents/butano/butano/butano.mak', line 26):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CXX) -MMD -MP -MF $(DEPSDIR)/$*.bn_ewram.d $(CXXFLAGS) -fno-lto -c $< -o $@ $(ERROR_FILTER)
+
+%.bn_ewram.o: %.bn_ewram.c
+#  recipe to execute (from '/home/jeffr/Documents/butano/butano/butano.mak', line 30):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CC) -MMD -MP -MF $(DEPSDIR)/$*.bn_ewram.d $(CFLAGS) -fno-lto -c $< -o $@ $(ERROR_FILTER)
+
+%.bn_noflto.o: %.bn_noflto.cpp
+#  recipe to execute (from '/home/jeffr/Documents/butano/butano/butano.mak', line 37):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CXX) -MMD -MP -MF $(DEPSDIR)/$*.bn_noflto.d $(CXXFLAGS) -fno-lto -c $< -o $@ $(ERROR_FILTER)
+
+%.bn_noflto.o: %.bn_noflto.c
+#  recipe to execute (from '/home/jeffr/Documents/butano/butano/butano.mak', line 41):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CC) -MMD -MP -MF $(DEPSDIR)/$*.bn_noflto.d $(CFLAGS) -fno-lto -c $< -o $@ $(ERROR_FILTER)
+
+%.elf:
+#  recipe to execute (from '/home/jeffr/Documents/butano/butano/butano.mak', line 48):
+	$(SILENTMSG) Linking ROM...
+	@echo $(OFILES) > bn_ofiles.txt
+	$(SILENTCMD)$(LD) $(LDFLAGS) -specs=gba.specs @bn_ofiles.txt $(LIBPATHS) $(LIBS) -o $@
+
+# 27 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+/opt/devkitpro/devkitARM/base_tools:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-04-28 14:49:18
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-08-19 01:07:06.4567191
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/jeffr/Documents/butano/butano/butano.mak', line 186):
+	@echo clean ...
+	@rm -fr $(BUILD) $(TARGET).elf $(TARGET).elf.* $(TARGET).gba $(USERBUILD)
+
+# Not a target:
+/opt/devkitpro/devkitARM/base_rules:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-04-28 14:49:18
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/opt/devkitpro/devkitARM/gba_rules:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-04-28 14:49:18
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  Modification time never checked.
+#  File has not been updated.
+
+all:
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/17=12%
+#  recipe to execute (from '/home/jeffr/Documents/butano/butano/butano.mak', line 174):
+	@[ -d $(BUILD) ] || mkdir -p $(BUILD)
+	@$(EXTTOOL)
+	@$(MAKE) --no-print-directory $(BUILD)
+	
+
+build:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/jeffr/Documents/butano/butano/butano.mak', line 180):
+	@$(PYTHON) -B $(LIBBUTANOABS)/tools/butano_assets_tool.py --audio="$(AUDIO)" --dmg_audio="$(DMGAUDIO)" \
+			--graphics="$(GRAPHICS)" --build=$(BUILD)
+	@$(MAKE) --no-print-directory -C $(BUILD) -f $(CURDIR)/Makefile
+
+# Not a target:
+/home/jeffr/Documents/butano/butano/butano.mak:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-04-27 03:33:37.7139185
+#  File has been updated.
+#  Successfully updated.
+
+.SECONDARY:
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  Modification time never checked.
+#  File has not been updated.
+
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: build clean
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=12/1024=1%, Rehash=0, Collisions=0/51=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# General ('VPATH' variable) search path:
+# /home/jeffr/Documents/butano/gba/src:/home/jeffr/Documents/butano/butano/src:/home/jeffr/Documents/butano/butano/hw/src:/home/jeffr/Documents/butano/butano/hw/3rd_party/libtonc/asm:/home/jeffr/Documents/butano/butano/hw/3rd_party/libtonc/src:/home/jeffr/Documents/butano/butano/hw/3rd_party/libtonc/src/font:/home/jeffr/Documents/butano/butano/hw/3rd_party/libtonc/src/tte:/home/jeffr/Documents/butano/butano/hw/3rd_party/libugba/src:/home/jeffr/Documents/butano/butano/hw/3rd_party/posprintf/src:/home/jeffr/Documents/butano/butano/hw/3rd_party/agbabi/src:/home/jeffr/Documents/butano/butano/hw/3rd_party/gba-modern/src:/home/jeffr/Documents/butano/butano/hw/3rd_party/cult-of-gba-bios/src:/home/jeffr/Documents/butano/butano/hw/3rd_party/gbt-player/src:/home/jeffr/Documents/butano/gba/dmg_audio:/home/jeffr/Documents/butano/gba/graphics:/home/jeffr/Documents/butano/gba/../../butano/common/graphics
+
+# strcache buffers: 1 (0) / strings = 331 / storage = 7903 B / avg = 23 B
+# current buf: size = 8162 B / used = 7903 B / count = 331 / avg = 23 B
+
+# strcache performance: lookups = 420 / hit rate = 21%
+# hash-table stats:
+# Load=331/8192=4%, Rehash=0, Collisions=15/420=4%
+# Finished Make data base on Sat Aug 26 14:40:52 2023
+
+ 

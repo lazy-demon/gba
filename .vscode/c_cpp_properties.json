@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "GBA",
+            "includePath": [
+                "${workspaceFolder}/include/",
+                "${workspaceFolder}/build/",
+                "${workspaceFolder}/../../butano/butano/include/",
+                "${workspaceFolder}/../../butano/common/include/"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:/devkitPro/devkitARM/bin/arm-none-eabi-gcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "windows-gcc-arm",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}

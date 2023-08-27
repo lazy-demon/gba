@@ -1,0 +1,4 @@
+rmemcpy.o: \
+ C:/Users/jeffr/Documents/butano/butano/hw/3rd_party/agbabi/src/rmemcpy.s \
+ C:/Users/jeffr/Documents/butano/butano/hw/3rd_party/agbabi/src/macros.inc
+C:/Users/jeffr/Documents/butano/butano/hw/3rd_party/agbabi/src/macros.inc:
