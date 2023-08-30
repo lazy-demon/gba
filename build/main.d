@@ -67,6 +67,12 @@ main.o: C:/Users/jeffr/Documents/butano/gba/src/main.cpp \
  C:/Users/jeffr/Documents/butano/butano/include/bn_vector.h \
  C:/Users/jeffr/Documents/butano/butano/include/bn_point.h \
  C:/Users/jeffr/Documents/butano/gba/include/tile.h \
+ C:/Users/jeffr/Documents/butano/gba/include/select.h \
+ C:/Users/jeffr/Documents/butano/gba/build/bn_sprite_items_selected.h \
+ C:/Users/jeffr/Documents/butano/gba/build/bn_sprite_items_cursor.h \
+ C:/Users/jeffr/Documents/butano/butano/include/bn_blending_actions.h \
+ C:/Users/jeffr/Documents/butano/butano/include/bn_blending.h \
+ C:/Users/jeffr/Documents/butano/butano/include/bn_template_actions.h \
  C:/Users/jeffr/Documents/butano/gba/build/bn_regular_bg_items_overworld.h \
  C:/Users/jeffr/Documents/butano/butano/include/bn_regular_bg_item.h \
  C:/Users/jeffr/Documents/butano/butano/include/bn_bg_palette_item.h \
@@ -144,6 +150,12 @@ C:/Users/jeffr/Documents/butano/butano/include/bn_array.h:
 C:/Users/jeffr/Documents/butano/butano/include/bn_vector.h:
 C:/Users/jeffr/Documents/butano/butano/include/bn_point.h:
 C:/Users/jeffr/Documents/butano/gba/include/tile.h:
+C:/Users/jeffr/Documents/butano/gba/include/select.h:
+C:/Users/jeffr/Documents/butano/gba/build/bn_sprite_items_selected.h:
+C:/Users/jeffr/Documents/butano/gba/build/bn_sprite_items_cursor.h:
+C:/Users/jeffr/Documents/butano/butano/include/bn_blending_actions.h:
+C:/Users/jeffr/Documents/butano/butano/include/bn_blending.h:
+C:/Users/jeffr/Documents/butano/butano/include/bn_template_actions.h:
 C:/Users/jeffr/Documents/butano/gba/build/bn_regular_bg_items_overworld.h:
 C:/Users/jeffr/Documents/butano/butano/include/bn_regular_bg_item.h:
 C:/Users/jeffr/Documents/butano/butano/include/bn_bg_palette_item.h:

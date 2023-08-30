@@ -36,7 +36,6 @@ tile.o: C:/Users/jeffr/Documents/butano/gba/src/tile.cpp \
  C:/Users/jeffr/Documents/butano/butano/include/bn_config_log.h \
  C:/Users/jeffr/Documents/butano/butano/include/bn_log_backend.h \
  C:/Users/jeffr/Documents/butano/butano/include/bn_string.h \
- C:/Users/jeffr/Documents/butano/gba/include/math.h \
  C:/Users/jeffr/Documents/butano/butano/include/bn_sprite_animate_actions.h \
  C:/Users/jeffr/Documents/butano/butano/include/bn_vector.h \
  C:/Users/jeffr/Documents/butano/butano/include/bn_limits.h \
@@ -55,6 +54,8 @@ tile.o: C:/Users/jeffr/Documents/butano/gba/src/tile.cpp \
  C:/Users/jeffr/Documents/butano/butano/include/bn_sprite_shape_size.h \
  C:/Users/jeffr/Documents/butano/butano/include/bn_sprite_palette_item.h \
  C:/Users/jeffr/Documents/butano/butano/include/bn_color.h \
+ C:/Users/jeffr/Documents/butano/gba/include/math.h \
+ C:/Users/jeffr/Documents/butano/gba/include/tile.h \
  C:/Users/jeffr/Documents/butano/common/include/common_variable_8x16_sprite_font.h \
  C:/Users/jeffr/Documents/butano/butano/include/bn_sprite_font.h \
  C:/Users/jeffr/Documents/butano/butano/include/bn_sprite_item.h \
@@ -107,7 +108,6 @@ C:/Users/jeffr/Documents/butano/butano/include/bn_unique_ptr_fwd.h:
 C:/Users/jeffr/Documents/butano/butano/include/bn_config_log.h:
 C:/Users/jeffr/Documents/butano/butano/include/bn_log_backend.h:
 C:/Users/jeffr/Documents/butano/butano/include/bn_string.h:
-C:/Users/jeffr/Documents/butano/gba/include/math.h:
 C:/Users/jeffr/Documents/butano/butano/include/bn_sprite_animate_actions.h:
 C:/Users/jeffr/Documents/butano/butano/include/bn_vector.h:
 C:/Users/jeffr/Documents/butano/butano/include/bn_limits.h:
@@ -126,6 +126,8 @@ C:/Users/jeffr/Documents/butano/butano/include/bn_sprite_item.h:
 C:/Users/jeffr/Documents/butano/butano/include/bn_sprite_shape_size.h:
 C:/Users/jeffr/Documents/butano/butano/include/bn_sprite_palette_item.h:
 C:/Users/jeffr/Documents/butano/butano/include/bn_color.h:
+C:/Users/jeffr/Documents/butano/gba/include/math.h:
+C:/Users/jeffr/Documents/butano/gba/include/tile.h:
 C:/Users/jeffr/Documents/butano/common/include/common_variable_8x16_sprite_font.h:
 C:/Users/jeffr/Documents/butano/butano/include/bn_sprite_font.h:
 C:/Users/jeffr/Documents/butano/butano/include/bn_sprite_item.h:

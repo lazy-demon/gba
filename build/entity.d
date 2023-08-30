@@ -64,7 +64,8 @@ entity.o: C:/Users/jeffr/Documents/butano/gba/src/entity.cpp \
  C:/Users/jeffr/Documents/butano/gba/build/bn_sprite_items_common_variable_8x16_font.h \
  C:/Users/jeffr/Documents/butano/butano/include/bn_sprite_text_generator.h \
  C:/Users/jeffr/Documents/butano/butano/include/bn_sprite_font.h \
- C:/Users/jeffr/Documents/butano/gba/include/math.h
+ C:/Users/jeffr/Documents/butano/gba/include/math.h \
+ C:/Users/jeffr/Documents/butano/gba/include/tile.h
 C:/Users/jeffr/Documents/butano/butano/include/bn_array.h:
 C:/Users/jeffr/Documents/butano/butano/include/bn_assert.h:
 C:/Users/jeffr/Documents/butano/butano/include/bn_type_traits.h:
@@ -131,3 +132,4 @@ C:/Users/jeffr/Documents/butano/gba/build/bn_sprite_items_common_variable_8x16_f
 C:/Users/jeffr/Documents/butano/butano/include/bn_sprite_text_generator.h:
 C:/Users/jeffr/Documents/butano/butano/include/bn_sprite_font.h:
 C:/Users/jeffr/Documents/butano/gba/include/math.h:
+C:/Users/jeffr/Documents/butano/gba/include/tile.h:

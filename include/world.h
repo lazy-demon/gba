@@ -2,7 +2,7 @@
 #include "bn_string.h"
 #include "bn_sprite_animate_actions.h"
 #include "entity.h"
-#include "tile.h"
+#include "select.h"
 
 namespace dnd
 {
@@ -12,7 +12,7 @@ namespace dnd
         dnd::Math math;
         bn::sprite_text_generator text;
         dnd::Player plr;
-        bn::vector<dnd::Tile, 100> tiles;
+        dnd::Select select;
 
     public:
         World(dnd::Math _math, bn::sprite_text_generator _text);

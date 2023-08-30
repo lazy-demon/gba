@@ -1,3 +1,6 @@
+#ifndef TILE_H
+#define TILE_H
+
 #include <bn_sprite_ptr.h>
 #include "bn_string.h"
 #include "bn_sprite_animate_actions.h"
@@ -14,3 +17,4 @@ namespace dnd
         void update();
     };
 } // namespace dnd
+#endif

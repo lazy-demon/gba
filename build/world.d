@@ -67,7 +67,13 @@ world.o: C:/Users/jeffr/Documents/butano/gba/src/world.cpp \
  C:/Users/jeffr/Documents/butano/butano/include/bn_sprite_text_generator.h \
  C:/Users/jeffr/Documents/butano/butano/include/bn_sprite_font.h \
  C:/Users/jeffr/Documents/butano/gba/include/math.h \
- C:/Users/jeffr/Documents/butano/gba/include/tile.h
+ C:/Users/jeffr/Documents/butano/gba/include/tile.h \
+ C:/Users/jeffr/Documents/butano/gba/include/select.h \
+ C:/Users/jeffr/Documents/butano/gba/build/bn_sprite_items_selected.h \
+ C:/Users/jeffr/Documents/butano/gba/build/bn_sprite_items_cursor.h \
+ C:/Users/jeffr/Documents/butano/butano/include/bn_blending_actions.h \
+ C:/Users/jeffr/Documents/butano/butano/include/bn_blending.h \
+ C:/Users/jeffr/Documents/butano/butano/include/bn_template_actions.h
 C:/Users/jeffr/Documents/butano/butano/include/bn_array.h:
 C:/Users/jeffr/Documents/butano/butano/include/bn_assert.h:
 C:/Users/jeffr/Documents/butano/butano/include/bn_type_traits.h:
@@ -137,3 +143,9 @@ C:/Users/jeffr/Documents/butano/butano/include/bn_sprite_text_generator.h:
 C:/Users/jeffr/Documents/butano/butano/include/bn_sprite_font.h:
 C:/Users/jeffr/Documents/butano/gba/include/math.h:
 C:/Users/jeffr/Documents/butano/gba/include/tile.h:
+C:/Users/jeffr/Documents/butano/gba/include/select.h:
+C:/Users/jeffr/Documents/butano/gba/build/bn_sprite_items_selected.h:
+C:/Users/jeffr/Documents/butano/gba/build/bn_sprite_items_cursor.h:
+C:/Users/jeffr/Documents/butano/butano/include/bn_blending_actions.h:
+C:/Users/jeffr/Documents/butano/butano/include/bn_blending.h:
+C:/Users/jeffr/Documents/butano/butano/include/bn_template_actions.h:

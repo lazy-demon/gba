@@ -5,13 +5,12 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
+ 
 
-# Make data base, printed on Sat Aug 26 14:40:52 2023
+# Make data base, printed on Wed Aug 30 19:02:41 2023
 
 # Variables
 
-# environment
-FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
 # environment
@@ -35,7 +34,8 @@ USERPROFILE = C:\Users\jeffr
 # makefile (from 'Makefile', line 30)
 LIBBUTANO := ../butano
 # makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 157)
-OFILES := _bn_audio_soundbank.bin.o   cursor_bn_gfx.o entity_bn_gfx.o overworld_bn_gfx.o selected_bn_gfx.o world_bn_gfx.o common_fixed_8x16_font_bn_gfx.o common_fixed_8x8_font_bn_gfx.o common_variable_16x16_font_bn_gfx.o common_variable_8x16_font_bn_gfx.o common_variable_8x8_font_bn_gfx.o entity.o main.o math.o tile.o world.o bn_audio_manager.o bn_best_fit_allocator.o bn_bg_blocks_manager.o bn_bgs_manager.o bn_cameras_manager.o bn_color_effect.o bn_core.o bn_display_manager.o bn_format.o bn_generic_pool.o bn_gpio_manager.o bn_hblank_effects_manager.o bn_hdma_manager.o bn_keypad_manager.o bn_link_manager.o bn_log.o bn_math.o bn_memory_manager.o bn_palettes_manager.o bn_profiler.o bn_reciprocal_lut.o bn_sin_lut.o bn_sprite_affine_mats_manager.o bn_sprite_animate_actions.o bn_sprite_text_generator.o bn_sprite_tiles_manager.o bn_sprites_manager.bn_iwram.o bn_sprites_manager.o bn_sram.o bn_sstream.o bn_timer.o bn_hw_audio.bn_noflto.o bn_hw_bg_blocks.bn_iwram.o bn_hw_common.bn_noflto.o bn_hw_cstdlib.o bn_hw_game_pak.bn_ewram.o bn_hw_game_pak.o bn_hw_irq.o bn_hw_link.o bn_hw_log.o bn_hw_memory.bn_iwram.o bn_hw_memory.o bn_hw_palettes.o bn_hw_show.o bn_hw_sprite_tiles.bn_iwram.o bn_hw_sprite_tiles.o bn_hw_sram.bn_ewram.o bn_hw_sram.o bn_hw_system_font.o bn_hw_text.o tonc_color.o tonc_sbmp16.o bmp16_drawg_b1cs.o tte_init_bmp.o tte_main.o interrupts_gba.o gbt_player.o bn_hw_core.o bn_hw_hblank_effects.o clr_blend_fast.o clr_fade_fast.o tonc_bios.o tonc_memset.o tonc_nocash.o verdana9.o irq_handler.o posprintf.o atan2.o lmul.o memcpy.o memmove.o memset.o rmemcpy.o clz.o sdiv32.o sqrt32.o udiv32.o huffman.o lz77.o running_length.o
+ 
+OFILES := _bn_audio_soundbank.bin.o   cursor_bn_gfx.o entity_bn_gfx.o overworld_bn_gfx.o selected_bn_gfx.o world_bn_gfx.o common_fixed_8x16_font_bn_gfx.o common_fixed_8x8_font_bn_gfx.o common_variable_16x16_font_bn_gfx.o common_variable_8x16_font_bn_gfx.o common_variable_8x8_font_bn_gfx.o entity.o main.o math.o select.o tile.o world.o bn_audio_manager.o bn_best_fit_allocator.o bn_bg_blocks_manager.o bn_bgs_manager.o bn_cameras_manager.o bn_color_effect.o bn_core.o bn_display_manager.o bn_format.o bn_generic_pool.o bn_gpio_manager.o bn_hblank_effects_manager.o bn_hdma_manager.o bn_keypad_manager.o bn_link_manager.o bn_log.o bn_math.o bn_memory_manager.o bn_palettes_manager.o bn_profiler.o bn_reciprocal_lut.o bn_sin_lut.o bn_sprite_affine_mats_manager.o bn_sprite_animate_actions.o bn_sprite_text_generator.o bn_sprite_tiles_manager.o bn_sprites_manager.bn_iwram.o bn_sprites_manager.o bn_sram.o bn_sstream.o bn_timer.o bn_hw_audio.bn_noflto.o bn_hw_bg_blocks.bn_iwram.o bn_hw_common.bn_noflto.o bn_hw_cstdlib.o bn_hw_game_pak.bn_ewram.o bn_hw_game_pak.o bn_hw_irq.o bn_hw_link.o bn_hw_log.o bn_hw_memory.bn_iwram.o bn_hw_memory.o bn_hw_palettes.o bn_hw_show.o bn_hw_sprite_tiles.bn_iwram.o bn_hw_sprite_tiles.o bn_hw_sram.bn_ewram.o bn_hw_sram.o bn_hw_system_font.o bn_hw_text.o tonc_color.o tonc_sbmp16.o bmp16_drawg_b1cs.o tte_init_bmp.o tte_main.o interrupts_gba.o gbt_player.o bn_hw_core.o bn_hw_hblank_effects.o clr_blend_fast.o clr_fade_fast.o tonc_bios.o tonc_memset.o tonc_nocash.o verdana9.o irq_handler.o posprintf.o atan2.o lmul.o memcpy.o memmove.o memset.o rmemcpy.o clz.o sdiv32.o sqrt32.o udiv32.o huffman.o lz77.o running_length.o
 # environment
 LOCALAPPDATA = C:\Users\jeffr\AppData\Local
 # makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 115)
@@ -69,13 +69,13 @@ OFILES_BIN := _bn_audio_soundbank.bin.o
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9804_ZUOYZKKCRCHIKAYI
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_23868_ZZVJYJRNWMMFVCWI
 # makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 118)
-CPPFILES := 	entity.cpp main.cpp math.cpp tile.cpp world.cpp 	bn_audio_manager.cpp bn_best_fit_allocator.cpp bn_bg_blocks_manager.cpp bn_bgs_manager.cpp bn_cameras_manager.cpp bn_color_effect.cpp bn_core.cpp bn_display_manager.cpp bn_format.cpp bn_generic_pool.cpp bn_gpio_manager.cpp bn_hblank_effects_manager.cpp bn_hdma_manager.cpp bn_keypad_manager.cpp bn_link_manager.cpp bn_log.cpp bn_math.cpp bn_memory_manager.cpp bn_palettes_manager.cpp bn_profiler.cpp bn_reciprocal_lut.cpp bn_sin_lut.cpp bn_sprite_affine_mats_manager.cpp bn_sprite_animate_actions.cpp bn_sprite_text_generator.cpp bn_sprite_tiles_manager.cpp bn_sprites_manager.bn_iwram.cpp bn_sprites_manager.cpp bn_sram.cpp bn_sstream.cpp bn_timer.cpp 	bn_hw_audio.bn_noflto.cpp bn_hw_bg_blocks.bn_iwram.cpp bn_hw_common.bn_noflto.cpp bn_hw_cstdlib.cpp bn_hw_game_pak.bn_ewram.cpp bn_hw_game_pak.cpp bn_hw_irq.cpp bn_hw_link.cpp bn_hw_log.cpp bn_hw_memory.bn_iwram.cpp bn_hw_memory.cpp bn_hw_palettes.cpp bn_hw_show.cpp bn_hw_sprite_tiles.bn_iwram.cpp bn_hw_sprite_tiles.cpp bn_hw_sram.bn_ewram.cpp bn_hw_sram.cpp bn_hw_system_font.cpp bn_hw_text.cpp 	 	 	 	 	 	 	 	 	 	
+CPPFILES := 	entity.cpp main.cpp math.cpp select.cpp tile.cpp world.cpp 	bn_audio_manager.cpp bn_best_fit_allocator.cpp bn_bg_blocks_manager.cpp bn_bgs_manager.cpp bn_cameras_manager.cpp bn_color_effect.cpp bn_core.cpp bn_display_manager.cpp bn_format.cpp bn_generic_pool.cpp bn_gpio_manager.cpp bn_hblank_effects_manager.cpp bn_hdma_manager.cpp bn_keypad_manager.cpp bn_link_manager.cpp bn_log.cpp bn_math.cpp bn_memory_manager.cpp bn_palettes_manager.cpp bn_profiler.cpp bn_reciprocal_lut.cpp bn_sin_lut.cpp bn_sprite_affine_mats_manager.cpp bn_sprite_animate_actions.cpp bn_sprite_text_generator.cpp bn_sprite_tiles_manager.cpp bn_sprites_manager.bn_iwram.cpp bn_sprites_manager.cpp bn_sram.cpp bn_sstream.cpp bn_timer.cpp 	bn_hw_audio.bn_noflto.cpp bn_hw_bg_blocks.bn_iwram.cpp bn_hw_common.bn_noflto.cpp bn_hw_cstdlib.cpp bn_hw_game_pak.bn_ewram.cpp bn_hw_game_pak.cpp bn_hw_irq.cpp bn_hw_link.cpp bn_hw_log.cpp bn_hw_memory.bn_iwram.cpp bn_hw_memory.cpp bn_hw_palettes.cpp bn_hw_show.cpp bn_hw_sprite_tiles.bn_iwram.cpp bn_hw_sprite_tiles.cpp bn_hw_sram.bn_ewram.cpp bn_hw_sram.cpp bn_hw_system_font.cpp bn_hw_text.cpp 	 	 	 	 	 	 	 	 	 	
 # environment
-CLOUDSDK_METRICS_ENVIRONMENT_VERSION = 1.22.1
+EFC_13424 = 1
 # environment
-FPS_BROWSER_USER_PROFILE_STRING = Default
+CLOUDSDK_METRICS_ENVIRONMENT_VERSION = 2.0.0
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -89,7 +89,7 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # makefile (from 'Makefile', line 43)
 USERLIBDIRS := 
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\jeffr\AppData\Roaming\Code - Insiders\CachedData\083fca132543aa91a7e1de2dc23857d70ea56dd3
+VSCODE_CODE_CACHE_PATH = C:\Users\jeffr\AppData\Roaming\Code - Insiders\CachedData\ebd67244fb2da33ab078bb2baa96106fda29f336
 # environment
 LANG = C
 # default
@@ -116,6 +116,7 @@ CURDIR := /home/jeffr/Documents/butano/gba
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
 VSCODE_L10N_BUNDLE_LOCATION = 
+ 
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 113)
@@ -141,7 +142,7 @@ ASFLAGS := -gdwarf-4 -mthumb -mthumb-interwork
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 9804
+VSCODE_PID = 23868
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # makefile (from '/opt/devkitpro/devkitARM/base_tools', line 24)
@@ -177,7 +178,7 @@ MAKECMDGOALS := all
 # makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 153)
 OFILES_GRAPHICS := cursor_bn_gfx.o entity_bn_gfx.o overworld_bn_gfx.o selected_bn_gfx.o world_bn_gfx.o common_fixed_8x16_font_bn_gfx.o common_fixed_8x8_font_bn_gfx.o common_variable_16x16_font_bn_gfx.o common_variable_8x16_font_bn_gfx.o common_variable_8x8_font_bn_gfx.o
 # makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 155)
-OFILES_SOURCES := entity.o main.o math.o tile.o world.o bn_audio_manager.o bn_best_fit_allocator.o bn_bg_blocks_manager.o bn_bgs_manager.o bn_cameras_manager.o bn_color_effect.o bn_core.o bn_display_manager.o bn_format.o bn_generic_pool.o bn_gpio_manager.o bn_hblank_effects_manager.o bn_hdma_manager.o bn_keypad_manager.o bn_link_manager.o bn_log.o bn_math.o bn_memory_manager.o bn_palettes_manager.o bn_profiler.o bn_reciprocal_lut.o bn_sin_lut.o bn_sprite_affine_mats_manager.o bn_sprite_animate_actions.o bn_sprite_text_generator.o bn_sprite_tiles_manager.o bn_sprites_manager.bn_iwram.o bn_sprites_manager.o bn_sram.o bn_sstream.o bn_timer.o bn_hw_audio.bn_noflto.o bn_hw_bg_blocks.bn_iwram.o bn_hw_common.bn_noflto.o bn_hw_cstdlib.o bn_hw_game_pak.bn_ewram.o bn_hw_game_pak.o bn_hw_irq.o bn_hw_link.o bn_hw_log.o bn_hw_memory.bn_iwram.o bn_hw_memory.o bn_hw_palettes.o bn_hw_show.o bn_hw_sprite_tiles.bn_iwram.o bn_hw_sprite_tiles.o bn_hw_sram.bn_ewram.o bn_hw_sram.o bn_hw_system_font.o bn_hw_text.o tonc_color.o tonc_sbmp16.o bmp16_drawg_b1cs.o tte_init_bmp.o tte_main.o interrupts_gba.o gbt_player.o bn_hw_core.o bn_hw_hblank_effects.o clr_blend_fast.o clr_fade_fast.o tonc_bios.o tonc_memset.o tonc_nocash.o verdana9.o irq_handler.o posprintf.o atan2.o lmul.o memcpy.o memmove.o memset.o rmemcpy.o clz.o sdiv32.o sqrt32.o udiv32.o huffman.o lz77.o running_length.o
+OFILES_SOURCES := entity.o main.o math.o select.o tile.o world.o bn_audio_manager.o bn_best_fit_allocator.o bn_bg_blocks_manager.o bn_bgs_manager.o bn_cameras_manager.o bn_color_effect.o bn_core.o bn_display_manager.o bn_format.o bn_generic_pool.o bn_gpio_manager.o bn_hblank_effects_manager.o bn_hdma_manager.o bn_keypad_manager.o bn_link_manager.o bn_log.o bn_math.o bn_memory_manager.o bn_palettes_manager.o bn_profiler.o bn_reciprocal_lut.o bn_sin_lut.o bn_sprite_affine_mats_manager.o bn_sprite_animate_actions.o bn_sprite_text_generator.o bn_sprite_tiles_manager.o bn_sprites_manager.bn_iwram.o bn_sprites_manager.o bn_sram.o bn_sstream.o bn_timer.o bn_hw_audio.bn_noflto.o bn_hw_bg_blocks.bn_iwram.o bn_hw_common.bn_noflto.o bn_hw_cstdlib.o bn_hw_game_pak.bn_ewram.o bn_hw_game_pak.o bn_hw_irq.o bn_hw_link.o bn_hw_log.o bn_hw_memory.bn_iwram.o bn_hw_memory.o bn_hw_palettes.o bn_hw_show.o bn_hw_sprite_tiles.bn_iwram.o bn_hw_sprite_tiles.o bn_hw_sram.bn_ewram.o bn_hw_sram.o bn_hw_system_font.o bn_hw_text.o tonc_color.o tonc_sbmp16.o bmp16_drawg_b1cs.o tte_init_bmp.o tte_main.o interrupts_gba.o gbt_player.o bn_hw_core.o bn_hw_hblank_effects.o clr_blend_fast.o clr_fade_fast.o tonc_bios.o tonc_memset.o tonc_nocash.o verdana9.o irq_handler.o posprintf.o atan2.o lmul.o memcpy.o memmove.o memset.o rmemcpy.o clz.o sdiv32.o sqrt32.o udiv32.o huffman.o lz77.o running_length.o
 # environment
 DRIVERDATA = C:\Windows\System32\Drivers\DriverData
 # environment
@@ -193,11 +194,10 @@ LIBPATHS := -L/home/jeffr/Documents/butano/butano/lib -L/home/jeffr/Documents/bu
 # default
 MAKE = $(MAKE_COMMAND)
 # makefile (from '/opt/devkitpro/devkitARM/gba_rules', line 8)
+ 
 PATH := /opt/devkitpro/portlibs/gba/bin:/opt/devkitpro/portlibs/armv4t/bin:/opt/devkitpro/tools/bin:/opt/devkitpro/devkitARM/bin:/home/jeffr/AppData/Local/cloud-code/installer/google-cloud-sdk/bin:/c/Python311/Scripts:/c/Python311:/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/c/Program Files/Eclipse Adoptium/jdk-17.0.7.7-hotspot/bin:/opt/devkitpro/msys2/usr/bin:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0:/c/Windows/System32/OpenSSH:/c/Program Files/dotnet:/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/c/Program Files (x86)/GnuWin32/bin:/c/src/flutter/bin:/home/jeffr/.cache/firebase/tools/bin/firebase:/c/Program Files/Microsoft SQL Server/150/Tools/Binn:/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/c/Program Files/Docker/Docker/resources/bin:/c/Program Files/nodejs:/c/ProgramData/chocolatey/bin:/c/Program Files/Git/cmd:/home/jeffr/AppData/Local/Pub/Cache/bin:/home/jeffr/Downloads/platform-tools_r34.0.4-windows/platform-tools:/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/home/jeffr/AppData/Local/Microsoft/WindowsApps:/home/jeffr/AppData/Local/Programs/Microsoft VS Code/bin:/home/jeffr/AppData/Local/GitHubDesktop/bin:/home/jeffr/AppData/Local/Programs/Microsoft VS Code Insiders/bin:/c/src/flutter/bin:/home/jeffr/.dotnet/tools:/home/jeffr/AppData/Roaming/npm:/home/jeffr/AppData/Local/Pub/Cache/bin:/home/jeffr/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin:/c/Program Files (x86)/Google/Cloud SDK/google-cloud-sdk/bin:/c/Program Files/Google/Cloud SDK/google-cloud-sdk/bin
 # environment
 ZES_ENABLE_SYSMAN = 1
-# environment
-EFC_14228 = 1
 # environment
 COMPUTERNAME = DESKTOP-JFQT5NP
 # default
@@ -248,6 +248,8 @@ USERDOMAIN = DESKTOP-JFQT5NP
 GNUMAKEFLAGS := 
 # environment
 OS = Windows_NT
+# environment
+__COMPAT_LAYER = DetectorsAppHealth
 # makefile (from '/opt/devkitpro/devkitARM/gba_rules', line 12)
 GAME_TITLE := 
 # makefile
@@ -277,6 +279,7 @@ ISVC = $(or $(VCBUILDHELPER_COMMAND),$(MSBUILDEXTENSIONSPATH32),$(MSBUILDEXTENSI
 # environment
 PUBLIC = C:\Users\Public
 # makefile (from 'Makefile', line 40)
+ 
 USERFLAGS := 
 # makefile (from '/opt/devkitpro/devkitARM/gba_rules', line 9)
 LIBGBA := /opt/devkitpro/libgba
@@ -365,7 +368,8 @@ GRAPHICS := graphics ../../butano/common/graphics
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
 # variable set hash-table stats:
-# Load=175/1024=17%, Rehash=0, Collisions=30/345=9%
+ 
+# Load=174/1024=17%, Rehash=0, Collisions=29/344=8%
 
 # Pattern-specific Variable Values
 
@@ -378,14 +382,14 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
 # /home/jeffr/Documents/butano/gba/../../butano/common/graphics (device 3089750953, inode 281474977779824): 12 files, no impossibilities.
 # /home/jeffr/Documents/butano/butano/hw/3rd_party/libtonc/src/font (device 3089750953, inode 281474977779144): 4 files, no impossibilities.
 # /home/jeffr/Documents/butano/butano/hw/3rd_party/agbabi/src (device 3089750953, inode 281474977779023): 9 files, no impossibilities.
-# src (device 3089750953, inode 281474977783345): 7 files, no impossibilities.
+# src (device 3089750953, inode 281474977783345): 8 files, no impossibilities.
 # /home/jeffr/Documents/butano/butano/hw/3rd_party/libugba/src (device 3089750953, inode 281474977779183): 4 files, no impossibilities.
 # /home/jeffr/Documents/butano/gba/graphics (device 3089750953, inode 281474977783341): 13 files, no impossibilities.
 # /home/jeffr/Documents/butano/butano/src (device 3089750953, inode 281474977779589): 176 files, no impossibilities.
 # /home/jeffr/Documents/butano/gba/dmg_audio (device 3089750953, inode 281474977783338): 3 files, no impossibilities.
 # /home/jeffr/Documents/butano/butano/hw/3rd_party/gbt-player/src (device 3089750953, inode 281474977779071): 4 files, no impossibilities.
-# /home/jeffr/Documents/butano/gba/src (device 3089750953, inode 281474977783345): 7 files, no impossibilities.
-# . (device 3089750953, inode 281474977783331): 13 files, no impossibilities.
+# /home/jeffr/Documents/butano/gba/src (device 3089750953, inode 281474977783345): 8 files, no impossibilities.
+# . (device 3089750953, inode 281474977783331): 14 files, no impossibilities.
 # /home/jeffr/Documents/butano/butano/hw/3rd_party/libtonc/asm (device 3089750953, inode 281474977779082): 7 files, no impossibilities.
 # /home/jeffr/Documents/butano/butano/hw/3rd_party/posprintf/src (device 3089750953, inode 281474977779190): 3 files, no impossibilities.
 # /home/jeffr/Documents/butano/butano/hw/3rd_party/cult-of-gba-bios/src (device 3089750953, inode 281474977779039): 5 files, no impossibilities.
@@ -395,12 +399,13 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
 # dmg_audio (device 3089750953, inode 281474977783338): 3 files, no impossibilities.
 # /home/jeffr/Documents/butano/butano/hw/3rd_party/libtonc/src/tte (device 3089750953, inode 281474977779147): 5 files, no impossibilities.
 
-# 335 files, no impossibilities in 21 directories.
+# 338 files, no impossibilities in 21 directories.
 
 # Implicit Rules
 
 %.a:
 #  recipe to execute (from '/opt/devkitpro/devkitARM/base_rules', line 12):
+ 
 	$(SILENTMSG) $(notdir $@)
 	@rm -f $@
 	$(SILENTCMD)$(AR) -rc $@ $^
@@ -566,6 +571,7 @@ clean:
 #  recipe to execute (from '/home/jeffr/Documents/butano/butano/butano.mak', line 186):
 	@echo clean ...
 	@rm -fr $(BUILD) $(TARGET).elf $(TARGET).elf.* $(TARGET).gba $(USERBUILD)
+ 
 
 # Not a target:
 /opt/devkitpro/devkitARM/base_rules:
@@ -668,12 +674,12 @@ build:
 # General ('VPATH' variable) search path:
 # /home/jeffr/Documents/butano/gba/src:/home/jeffr/Documents/butano/butano/src:/home/jeffr/Documents/butano/butano/hw/src:/home/jeffr/Documents/butano/butano/hw/3rd_party/libtonc/asm:/home/jeffr/Documents/butano/butano/hw/3rd_party/libtonc/src:/home/jeffr/Documents/butano/butano/hw/3rd_party/libtonc/src/font:/home/jeffr/Documents/butano/butano/hw/3rd_party/libtonc/src/tte:/home/jeffr/Documents/butano/butano/hw/3rd_party/libugba/src:/home/jeffr/Documents/butano/butano/hw/3rd_party/posprintf/src:/home/jeffr/Documents/butano/butano/hw/3rd_party/agbabi/src:/home/jeffr/Documents/butano/butano/hw/3rd_party/gba-modern/src:/home/jeffr/Documents/butano/butano/hw/3rd_party/cult-of-gba-bios/src:/home/jeffr/Documents/butano/butano/hw/3rd_party/gbt-player/src:/home/jeffr/Documents/butano/gba/dmg_audio:/home/jeffr/Documents/butano/gba/graphics:/home/jeffr/Documents/butano/gba/../../butano/common/graphics
 
-# strcache buffers: 1 (0) / strings = 331 / storage = 7903 B / avg = 23 B
-# current buf: size = 8162 B / used = 7903 B / count = 331 / avg = 23 B
+# strcache buffers: 1 (0) / strings = 333 / storage = 7919 B / avg = 23 B
+# current buf: size = 8162 B / used = 7919 B / count = 333 / avg = 23 B
 
-# strcache performance: lookups = 420 / hit rate = 21%
+# strcache performance: lookups = 422 / hit rate = 21%
 # hash-table stats:
-# Load=331/8192=4%, Rehash=0, Collisions=15/420=4%
-# Finished Make data base on Sat Aug 26 14:40:52 2023
+# Load=333/8192=4%, Rehash=0, Collisions=15/422=4%
+# Finished Make data base on Wed Aug 30 19:02:41 2023
 
  

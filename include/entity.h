@@ -1,3 +1,6 @@
+#ifndef ENTITY_H
+#define ENTITY_H
+
 #include <bn_sprite_ptr.h>
 #include "bn_sprite_items_entity.h"
 #include "bn_string.h"
@@ -154,3 +157,4 @@ namespace dnd
         void update(Math _math);
     };
 } // namespace dnd
+#endif

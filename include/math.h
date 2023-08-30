@@ -1,7 +1,11 @@
+#ifndef MATH_H
+#define MATH_H
+
 #include <bn_array.h>
 #include <bn_vector.h>
 #include <bn_point.h>
 #include <bn_core.h>
+#include "tile.h"
 
 namespace dnd
 {
@@ -22,7 +26,10 @@ namespace dnd
                                    2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
                                    2, 2, 2, 2, 2, 2, 2, 2, 2, 2};
         bn::vector<int, 100> depth;
+        bn::vector<dnd::Tile, 100> tiles;
+
         bn::point isoToCart(bn::point pos);
         bn::point cartToIso(bn::point pos);
     };
 } // namespace dnd
+#endif

@@ -15,6 +15,11 @@
         "file": "home:\\jeffr\\Documents\\butano\\gba\\src\\math.cpp"
     },
     {
+        "command": "arm-none-eabi-g++ -MMD -MP -MF /home/jeffr/Documents/butano/gba/build/select.d  -Wall -Wextra -Wpedantic -Wshadow -Wundef -Wunused-parameter -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wnull-dereference -Wswitch-default -Wstack-usage=16384 -gdwarf-4 -O2 -mcpu=arm7tdmi -mtune=arm7tdmi -ffast-math -ffunction-sections -fdata-sections -mthumb -mthumb-interwork -iquote /home/jeffr/Documents/butano/gba/include -iquote /home/jeffr/Documents/butano/gba/../../butano/common/include -I/home/jeffr/Documents/butano/butano/include -I/home/jeffr/Documents/butano/butano/hw/3rd_party/libtonc/include -I/home/jeffr/Documents/butano/butano/hw/3rd_party/libugba/include -I/opt/devkitpro/libgba/include -I/home/jeffr/Documents/butano/gba/build -Wuseless-cast -Wnon-virtual-dtor -Woverloaded-virtual -std=c++20 -fno-rtti -fno-exceptions -c /home/jeffr/Documents/butano/gba/src/select.cpp -o select.o ",
+        "directory": "home:\\jeffr\\Documents\\butano\\gba",
+        "file": "home:\\jeffr\\Documents\\butano\\gba\\src\\select.cpp"
+    },
+    {
         "command": "arm-none-eabi-g++ -MMD -MP -MF /home/jeffr/Documents/butano/gba/build/tile.d  -Wall -Wextra -Wpedantic -Wshadow -Wundef -Wunused-parameter -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wnull-dereference -Wswitch-default -Wstack-usage=16384 -gdwarf-4 -O2 -mcpu=arm7tdmi -mtune=arm7tdmi -ffast-math -ffunction-sections -fdata-sections -mthumb -mthumb-interwork -iquote /home/jeffr/Documents/butano/gba/include -iquote /home/jeffr/Documents/butano/gba/../../butano/common/include -I/home/jeffr/Documents/butano/butano/include -I/home/jeffr/Documents/butano/butano/hw/3rd_party/libtonc/include -I/home/jeffr/Documents/butano/butano/hw/3rd_party/libugba/include -I/opt/devkitpro/libgba/include -I/home/jeffr/Documents/butano/gba/build -Wuseless-cast -Wnon-virtual-dtor -Woverloaded-virtual -std=c++20 -fno-rtti -fno-exceptions -c /home/jeffr/Documents/butano/gba/src/tile.cpp -o tile.o ",
         "directory": "home:\\jeffr\\Documents\\butano\\gba",
         "file": "home:\\jeffr\\Documents\\butano\\gba\\src\\tile.cpp"
