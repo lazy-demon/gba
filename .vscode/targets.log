@@ -7,10 +7,12 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # There is NO WARRANTY, to the extent permitted by law.
  
 
-# Make data base, printed on Wed Aug 30 19:02:41 2023
+# Make data base, printed on Mon Sep  4 09:52:32 2023
 
 # Variables
 
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
 # environment
@@ -69,13 +71,13 @@ OFILES_BIN := _bn_audio_soundbank.bin.o
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_23868_ZZVJYJRNWMMFVCWI
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_17276_WWCNQUEFNIIBCNYL
 # makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 118)
 CPPFILES := 	entity.cpp main.cpp math.cpp select.cpp tile.cpp world.cpp 	bn_audio_manager.cpp bn_best_fit_allocator.cpp bn_bg_blocks_manager.cpp bn_bgs_manager.cpp bn_cameras_manager.cpp bn_color_effect.cpp bn_core.cpp bn_display_manager.cpp bn_format.cpp bn_generic_pool.cpp bn_gpio_manager.cpp bn_hblank_effects_manager.cpp bn_hdma_manager.cpp bn_keypad_manager.cpp bn_link_manager.cpp bn_log.cpp bn_math.cpp bn_memory_manager.cpp bn_palettes_manager.cpp bn_profiler.cpp bn_reciprocal_lut.cpp bn_sin_lut.cpp bn_sprite_affine_mats_manager.cpp bn_sprite_animate_actions.cpp bn_sprite_text_generator.cpp bn_sprite_tiles_manager.cpp bn_sprites_manager.bn_iwram.cpp bn_sprites_manager.cpp bn_sram.cpp bn_sstream.cpp bn_timer.cpp 	bn_hw_audio.bn_noflto.cpp bn_hw_bg_blocks.bn_iwram.cpp bn_hw_common.bn_noflto.cpp bn_hw_cstdlib.cpp bn_hw_game_pak.bn_ewram.cpp bn_hw_game_pak.cpp bn_hw_irq.cpp bn_hw_link.cpp bn_hw_log.cpp bn_hw_memory.bn_iwram.cpp bn_hw_memory.cpp bn_hw_palettes.cpp bn_hw_show.cpp bn_hw_sprite_tiles.bn_iwram.cpp bn_hw_sprite_tiles.cpp bn_hw_sram.bn_ewram.cpp bn_hw_sram.cpp bn_hw_system_font.cpp bn_hw_text.cpp 	 	 	 	 	 	 	 	 	 	
 # environment
-EFC_13424 = 1
-# environment
 CLOUDSDK_METRICS_ENVIRONMENT_VERSION = 2.0.0
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -116,7 +118,6 @@ CURDIR := /home/jeffr/Documents/butano/gba
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
 VSCODE_L10N_BUNDLE_LOCATION = 
- 
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 113)
@@ -139,10 +140,11 @@ COMMONPROGRAMW6432 = C:\Program Files\Common Files
 MAKEFILE_LIST := Makefile /home/jeffr/Documents/butano/butano/butano.mak /opt/devkitpro/devkitARM/gba_rules /opt/devkitpro/devkitARM/base_rules /opt/devkitpro/devkitARM/base_tools
 # makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 68)
 ASFLAGS := -gdwarf-4 -mthumb -mthumb-interwork 
+ 
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 23868
+VSCODE_PID = 17276
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # makefile (from '/opt/devkitpro/devkitARM/base_tools', line 24)
@@ -194,7 +196,6 @@ LIBPATHS := -L/home/jeffr/Documents/butano/butano/lib -L/home/jeffr/Documents/bu
 # default
 MAKE = $(MAKE_COMMAND)
 # makefile (from '/opt/devkitpro/devkitARM/gba_rules', line 8)
- 
 PATH := /opt/devkitpro/portlibs/gba/bin:/opt/devkitpro/portlibs/armv4t/bin:/opt/devkitpro/tools/bin:/opt/devkitpro/devkitARM/bin:/home/jeffr/AppData/Local/cloud-code/installer/google-cloud-sdk/bin:/c/Python311/Scripts:/c/Python311:/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/c/Program Files/Eclipse Adoptium/jdk-17.0.7.7-hotspot/bin:/opt/devkitpro/msys2/usr/bin:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0:/c/Windows/System32/OpenSSH:/c/Program Files/dotnet:/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/c/Program Files (x86)/GnuWin32/bin:/c/src/flutter/bin:/home/jeffr/.cache/firebase/tools/bin/firebase:/c/Program Files/Microsoft SQL Server/150/Tools/Binn:/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/c/Program Files/Docker/Docker/resources/bin:/c/Program Files/nodejs:/c/ProgramData/chocolatey/bin:/c/Program Files/Git/cmd:/home/jeffr/AppData/Local/Pub/Cache/bin:/home/jeffr/Downloads/platform-tools_r34.0.4-windows/platform-tools:/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/home/jeffr/AppData/Local/Microsoft/WindowsApps:/home/jeffr/AppData/Local/Programs/Microsoft VS Code/bin:/home/jeffr/AppData/Local/GitHubDesktop/bin:/home/jeffr/AppData/Local/Programs/Microsoft VS Code Insiders/bin:/c/src/flutter/bin:/home/jeffr/.dotnet/tools:/home/jeffr/AppData/Roaming/npm:/home/jeffr/AppData/Local/Pub/Cache/bin:/home/jeffr/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin:/c/Program Files (x86)/Google/Cloud SDK/google-cloud-sdk/bin:/c/Program Files/Google/Cloud SDK/google-cloud-sdk/bin
 # environment
 ZES_ENABLE_SYSMAN = 1
@@ -213,6 +214,7 @@ MAKER_CODE := 00
 # environment
 CHOCOLATEYLASTPATHUPDATE = 133302746498631278
 # makefile (from 'Makefile', line 41)
+ 
 USERASFLAGS := 
 # makefile (from '/opt/devkitpro/devkitARM/base_tools', line 15)
 PREFIX := arm-none-eabi-
@@ -248,8 +250,6 @@ USERDOMAIN = DESKTOP-JFQT5NP
 GNUMAKEFLAGS := 
 # environment
 OS = Windows_NT
-# environment
-__COMPAT_LAYER = DetectorsAppHealth
 # makefile (from '/opt/devkitpro/devkitARM/gba_rules', line 12)
 GAME_TITLE := 
 # makefile
@@ -279,8 +279,9 @@ ISVC = $(or $(VCBUILDHELPER_COMMAND),$(MSBUILDEXTENSIONSPATH32),$(MSBUILDEXTENSI
 # environment
 PUBLIC = C:\Users\Public
 # makefile (from 'Makefile', line 40)
- 
 USERFLAGS := 
+# environment
+EFC_11968 = 1
 # makefile (from '/opt/devkitpro/devkitARM/gba_rules', line 9)
 LIBGBA := /opt/devkitpro/libgba
 # environment
@@ -344,6 +345,7 @@ USERBUILD :=
 # environment
 CLOUDSDK_METRICS_ENVIRONMENT = cloudcode.vscode
 # makefile (from '/home/jeffr/Documents/butano/butano/butano.mak', line 66)
+ 
 CXXFLAGS := -Wall -Wextra -Wpedantic -Wshadow -Wundef -Wunused-parameter -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wnull-dereference -Wswitch-default -Wstack-usage=16384 -gdwarf-4 -O2 -mcpu=arm7tdmi -mtune=arm7tdmi -ffast-math -ffunction-sections -fdata-sections -mthumb -mthumb-interwork -Wuseless-cast -Wnon-virtual-dtor -Woverloaded-virtual -std=c++20 -fno-rtti -fno-exceptions
 # makefile (from '/opt/devkitpro/devkitARM/base_tools', line 22)
 STRIP := arm-none-eabi-strip
@@ -368,8 +370,7 @@ GRAPHICS := graphics ../../butano/common/graphics
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
 # variable set hash-table stats:
- 
-# Load=174/1024=17%, Rehash=0, Collisions=29/344=8%
+# Load=175/1024=17%, Rehash=0, Collisions=30/345=9%
 
 # Pattern-specific Variable Values
 
@@ -405,7 +406,6 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
 
 %.a:
 #  recipe to execute (from '/opt/devkitpro/devkitARM/base_rules', line 12):
- 
 	$(SILENTMSG) $(notdir $@)
 	@rm -f $@
 	$(SILENTCMD)$(AR) -rc $@ $^
@@ -450,6 +450,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
 	$(SILENTMSG) $(notdir $<)
 	$(SILENTCMD)$(CC) -MMD -MP -MF $(DEPSDIR)/$*.iwram.d $(CPPFLAGS) $(CFLAGS) -marm -mlong-calls -c $< -o $@ $(ERROR_FILTER)
 
+ 
 %.iwram.o: %.iwram.m
 #  recipe to execute (from '/opt/devkitpro/devkitARM/base_rules', line 58):
 	$(SILENTMSG) $(notdir $<)
@@ -571,7 +572,6 @@ clean:
 #  recipe to execute (from '/home/jeffr/Documents/butano/butano/butano.mak', line 186):
 	@echo clean ...
 	@rm -fr $(BUILD) $(TARGET).elf $(TARGET).elf.* $(TARGET).gba $(USERBUILD)
- 
 
 # Not a target:
 /opt/devkitpro/devkitARM/base_rules:
@@ -649,6 +649,7 @@ build:
 
 .SECONDARY:
 #  Implicit rule search has not been done.
+ 
 #  File is an intermediate prerequisite.
 #  Modification time never checked.
 #  File has not been updated.
@@ -680,6 +681,6 @@ build:
 # strcache performance: lookups = 422 / hit rate = 21%
 # hash-table stats:
 # Load=333/8192=4%, Rehash=0, Collisions=15/422=4%
-# Finished Make data base on Wed Aug 30 19:02:41 2023
+# Finished Make data base on Mon Sep  4 09:52:32 2023
 
  

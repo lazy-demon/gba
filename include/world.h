@@ -12,7 +12,7 @@ namespace dnd
         dnd::Math math;
         bn::sprite_text_generator text;
         dnd::Player plr;
-        dnd::Select select;
+        dnd::Select selector;
 
     public:
         World(dnd::Math _math, bn::sprite_text_generator _text);

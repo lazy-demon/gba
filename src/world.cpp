@@ -9,11 +9,12 @@
 
 namespace dnd
 {
-    World::World(dnd::Math _math, bn::sprite_text_generator _text) : math(_math), text(_text), plr(math.isoToCart(bn::point(0, 0)).x(), math.isoToCart(bn::point(0, 0)).y(), bn::random(), math, text), select(_math)
+
+    World::World(dnd::Math _math, bn::sprite_text_generator _text) : math(_math), text(_text), plr(math.isoToCart(bn::point(0, 0)).x(), math.isoToCart(bn::point(0, 0)).y(), bn::random(), math, text), selector(math)
     {
-        for (int y = 0; y < 5; y++)
+        for (int y = 0; y < math.worldHeight; y++)
         {
-            for (int x = 0; x < 5; x++)
+            for (int x = 0; x < math.worldWidth; x++)
             {
                 bn::point cart = math.isoToCart(bn::point(x, y));
                 dnd::Tile tile(bn::sprite_items::world.create_sprite(cart.x(), cart.y()));
@@ -22,8 +23,7 @@ namespace dnd
                 math.tiles.push_back(tile);
             }
         }
-        // select.setSelector(math);
-        math.tiles.at(5).highlight.emplace(bn::sprite_items::cursor.create_sprite(0, 0));
+        selector.setSelector();
     }
 
     void World::setDepth(bool invert)
@@ -47,15 +47,8 @@ namespace dnd
 
     void World::update()
     {
-        if (bn::keypad::a_pressed())
-        {
-            setDepth(true);
-        }
 
-        if (bn::keypad::b_pressed())
-        {
-            setDepth(false);
-        }
         plr.update(math);
+        selector.update(plr);
     }
 } // namespace dnd

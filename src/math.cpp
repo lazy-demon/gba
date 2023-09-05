@@ -29,15 +29,15 @@ namespace dnd
                                  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                                  0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 
-    int TileWidth = 16;
-    int TileHeight = 16;
+    int tileWidth = 16;
+    int tileHeight = 16;
 
     bn::point Math::isoToCart(bn::point pos)
     {
         bn::point cart;
 
-        cart.set_x(((pos.x() * dnd::TileWidth) / 2) - ((pos.y() * dnd::TileWidth) / 2));
-        cart.set_y(((pos.x() * dnd::TileHeight) / 4) + ((pos.y() * dnd::TileHeight) / 4));
+        cart.set_x(((pos.x() * dnd::tileWidth) / 2) - ((pos.y() * dnd::tileWidth) / 2));
+        cart.set_y(((pos.x() * dnd::tileHeight) / 4) + ((pos.y() * dnd::tileHeight) / 4));
 
         return cart;
     }
@@ -47,9 +47,10 @@ namespace dnd
         bn::point iso;
         pos.set_y(pos.y());
 
-        iso.set_x((pos.x() / (dnd::TileWidth / 2) + pos.y() / (dnd::TileHeight / 4)) / 2);
-        iso.set_y((pos.y() / (dnd::TileHeight / 4) - pos.x() / (dnd::TileWidth / 2)) / 2);
+        iso.set_x((pos.x() / (dnd::tileWidth / 2) + pos.y() / (dnd::tileHeight / 4)) / 2);
+        iso.set_y((pos.y() / (dnd::tileHeight / 4) - pos.x() / (dnd::tileWidth / 2)) / 2);
 
         return iso;
     }
+
 } // namespace dnd

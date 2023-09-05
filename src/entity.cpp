@@ -20,7 +20,6 @@ namespace dnd
         if (anim.has_value() && !anim.value().done())
         {
             anim.value().update();
-            bn::core::update();
         }
     }
 

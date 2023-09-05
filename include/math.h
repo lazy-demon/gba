@@ -27,7 +27,8 @@ namespace dnd
                                    2, 2, 2, 2, 2, 2, 2, 2, 2, 2};
         bn::vector<int, 100> depth;
         bn::vector<dnd::Tile, 100> tiles;
-
+        int worldHeight = 5;
+        int worldWidth = 5;
         bn::point isoToCart(bn::point pos);
         bn::point cartToIso(bn::point pos);
     };
